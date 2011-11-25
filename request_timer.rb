@@ -9,8 +9,8 @@ module SiteMonitor
   extend self
 
   BREAK_IN_SECONDS = 30
-  HOST = 'registry.nic.fm'
-  PATH = '/login.jsp'
+  HOST = 'zanshin.net'
+  PATH = '/'
   OPTS = {:use_ssl => true, :verify_mode => OpenSSL::SSL::VERIFY_NONE}
 
   def timeit
